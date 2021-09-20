@@ -1,9 +1,4 @@
-/* 使用例 */
-@use "variables" as *;
+@use "./variables" as *;
 h2 {
   font-size: 38px;
-}
-
-body{
-  font-family:$fonyfamily-gothic;
 }
