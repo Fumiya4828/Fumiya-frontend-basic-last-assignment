@@ -11,12 +11,12 @@ $orange_bistre: #442606;
 $blavk_50: rgba(0, 0, 0, 0.5);
 $black: #000000;
 
-$XS: 12px;
-$S: 14px;
-$M: 16px;
-$L: 20px;
-$XL: 36px;
-$XXL: 40px;
+$fontsize-xs: 12px;
+$fontsize-s: 14px;
+$fontsize-m: 16px;
+$fontsize-l: 20px;
+$fontsize-xl: 36px;
+$fontsize-xll: 40px;
 
 $xs: 0;
 $sm: 576px;
@@ -26,8 +26,4 @@ $xl: 1200px;
 $xxl: 1400px;
 
 $fontfamily-mincho: "Roboto", "Noto Sans JP", sans-serif;
-$fonyfamily-gothic: "Roboto", "Noto Serif JP", serif;
-
-body {
-    font-family: "游ゴシック", "Yu Gothic", sans-serif;
-}
+$fonyfamily-gothic: "Noto Serif JP", serif;

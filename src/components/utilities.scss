@@ -1,4 +1,8 @@
 @use "./variables" as *;
+html{
+  font-family:$fonyfamily-gothic;
+}
+
 h2 {
   font-size: 38px;
 }
