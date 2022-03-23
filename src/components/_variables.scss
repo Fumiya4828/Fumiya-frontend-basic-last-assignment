@@ -18,12 +18,12 @@ $fontsize-l: 20px;
 $fontsize-xl: 36px;
 $fontsize-xll: 40px;
 
-$xs: 0;
-$sm: 576px;
-$md: 768px;
-$lg: 992px;
-$xl: 1200px;
-$xxl: 1400px;
+$breakpoint-xs: 0;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+$breakpoint-xxl: 1400px;
 
 $fontfamily-mincho: "Roboto", "Noto Sans JP", sans-serif;
 $fonyfamily-gothic: "Noto Serif JP", serif;
