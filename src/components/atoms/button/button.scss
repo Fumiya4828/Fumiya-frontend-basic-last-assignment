@@ -6,22 +6,18 @@
     text-decoration: none;
     transition: 0.2s ease;
     font-size: $fontsize-s;
-}
 
-.button:hover{
-    text-decoration: none;
-    color: white;
-    background-color: $orange_bistre;
-}
+&:hover{
+        text-decoration: none;
+        color: white;
+        background-color: $orange_bistre;
+    }
 
-@media (min-width:$breakpoint-md) {
-    .button{
+    @media (min-width:$breakpoint-md) {
         padding: 17.5px 49px;
     }
-}
 
-@media (min-width:$breakpoint-lg) {
-    .button{
+    @media (min-width:$breakpoint-lg) {
         padding: 17.5px 74px;
     }
 }
