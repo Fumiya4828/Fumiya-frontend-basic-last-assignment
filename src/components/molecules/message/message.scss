@@ -1,0 +1,29 @@
+@use "../../variables" as *;
+.message-wrap{
+    text-align: center;
+    padding: 12px 12.5px;
+    .message-title{
+        font-family: $fontfamily-mincho;
+        font-size: $fontsize-l;
+        margin-bottom: 8px;
+        line-height: 30px;
+    }
+    .message-explanation{
+        font-size: $fontsize-s;
+        line-height: 28px;
+    }
+
+    @media(min-width:$breakpoint-lg){
+        .message-wrap{
+            padding: 52px 20px;
+        }
+        .message-title{
+            font-size: $fontsize-xl;
+            line-height: 54px;
+            margin-bottom: 10px;
+        }
+        .message-explanation{
+            line-height: 36px;
+        }
+    }
+}
