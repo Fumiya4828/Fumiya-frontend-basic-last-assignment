@@ -1,0 +1,19 @@
+@use "../../variables" as *;
+.news-title{
+    display: flex;
+    align-items: flex-start;
+    .english-title{
+        font-size: $fontsize-l;
+        font-family: $fontfamily-mincho;
+    }
+    .japanese-title{
+        font-size: $fontsize-m;
+        margin-left: 16px;
+    }
+    @media(min-width:$breakpoint-lg){
+        align-items: center;
+        .english-title{
+            font-size: $fontsize-xxl;
+        }
+    }
+}
