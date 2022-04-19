@@ -11,12 +11,11 @@
     .message-explanation{
         font-size: $fontsize-s;
         line-height: 28px;
+        margin-bottom: 0px;
     }
 
     @media(min-width:$breakpoint-lg){
-        .message-wrap{
-            padding: 52px 20px;
-        }
+        padding: 52px 20px;
         .message-title{
             font-size: $fontsize-xl;
             line-height: 54px;
